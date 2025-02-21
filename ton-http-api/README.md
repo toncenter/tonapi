@@ -46,10 +46,10 @@ There are two main ways to run TON HTTP API:
 ### Configuration
 
 You should specify environment parameters and run `./configure.py` to create `.env` file.
-    ```bash
-    export TON_API_LITESERVER_CONFIG=private/testnet.json
-    ./configure.py
-    ```
+```bash
+export TON_API_TONLIB_LITESERVER_CONFIG=private/testnet.json
+./configure.py
+```
 
 The service supports the following environment variables:
 #### Webserver settings
